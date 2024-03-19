@@ -10,14 +10,14 @@ We reveal a new challenge for multi-modal test-time adaptation dubbed modality r
 **Fig 1 (c)**: The video modality contaminated with reliability bias (Video-C) has poor recognition accuracy compared to the audio modality. Both vanilla attention-based fusion (AF) and late fusion (LF) manner give inaccurate predictions compared to the single-modality ones. Instead, the proposed self-adaptive attention-based fusion (SAF) could achieve reliable fusion thus guaranteeing the performance gain in multi-modal scenarios.<br>
 **Fig 1 (d)**: once the more informative modalities are corrupted (e.g. video for action recognition), it would be challenged to give accurate predictions. Consequently, the entropy of multi-modal predictions would be unstable. In other words, the ratio of conﬁdent predictions would decrease while the noise might dominate the predictions.
 
-<img src="https://github.com/XLearning-SCU/2024-ICLR-READ/tree/main/figs/observation.png"  width="760" height="268" />
+<img src="https://github.com/XLearning-SCU/2024-ICLR-READ/blob/main/figs/observation.png"  width="760" height="268" />
 
 
 READ consists of two modules to handle the modality reliability bias challenge.
 On the one hand, READ employs a new TTA paradigm that **modulates the attention between modalities in a self-adaptive way**, supporting reliable fusion against reliability bias. 
 On the other hand, READ adopts a new objective function for robust multi-modal adaptation, where the contributions of conﬁdent predictions could be ampliﬁed and the negative impacts of noisy predictions could be mitigated.
 
-<img src="https://github.com/XLearning-SCU/2024-ICLR-READ/tree/main/figs/framework.png"  width="760" height="268" />
+<img src="https://github.com/XLearning-SCU/2024-ICLR-READ/blob/main/figs/framework.png"  width="760" height="268" />
 
 ## Main Requirements
 
