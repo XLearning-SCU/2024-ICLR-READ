@@ -5,10 +5,10 @@ This is the official PyTorch implementation for [Test-time Adaption against Mult
 ## Introduction
 We reveal a new challenge for multi-modal test-time adaptation dubbed modality reliability bias.
 
-**Fig 1 (a)**: Imaging an autonomous vehicle equipped with camera and audio sensors driving into a foggy highway or noisy crossroad, either the visual or audio modalities would be corrupted, leading to **domain shifts** in certain modalities.<br>
-**Fig 1 (b)**: Some corrupted modalities will lose the task-speciﬁc information and suffer from **modality reliability bias** during cross-modal fusion compared to the uncorrupted counterparts.<br>
-**Fig 1 (c)**: The video modality contaminated with reliability bias (Video-C) has poor recognition accuracy compared to the audio modality. Both vanilla attention-based fusion (AF) and late fusion (LF) manner give inaccurate predictions compared to the single-modality ones. Instead, the proposed self-adaptive attention-based fusion (SAF) could achieve reliable fusion thus guaranteeing the performance gain in multi-modal scenarios.<br>
-**Fig 1 (d)**: once the more informative modalities are corrupted (e.g. video for action recognition), it would be challenged to give accurate predictions. Consequently, the entropy of multi-modal predictions would be unstable. In other words, the ratio of conﬁdent predictions would decrease while the noise might dominate the predictions.
+**(a)**: Imaging an autonomous vehicle equipped with camera and audio sensors driving into a foggy highway or noisy crossroad, either the visual or audio modalities would be corrupted, leading to **domain shifts** in certain modalities.<br>
+**(b)**: Some corrupted modalities will lose the task-speciﬁc information and suffer from **modality reliability bias** during cross-modal fusion compared to the uncorrupted counterparts.<br>
+**(c)**: The video modality contaminated with reliability bias (Video-C) has poor recognition accuracy compared to the audio modality. Both vanilla attention-based fusion (AF) and late fusion (LF) manner give inaccurate predictions compared to the single-modality ones. Instead, the proposed self-adaptive attention-based fusion (SAF) could achieve reliable fusion thus guaranteeing the performance gain in multi-modal scenarios.<br>
+**(d)**: once the more informative modalities are corrupted (e.g. video for action recognition), it would be challenged to give accurate predictions. Consequently, the entropy of multi-modal predictions would be unstable. In other words, the ratio of conﬁdent predictions would decrease while the noise might dominate the predictions.
 
 <img src="https://github.com/XLearning-SCU/2024-ICLR-READ/blob/main/figs/observation.png"  width="760" height="428" />
 
