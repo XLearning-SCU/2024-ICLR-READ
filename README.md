@@ -65,7 +65,7 @@ python run_read.py --dataset 'ks50' --json-root 'code_path/json_csv_files/ks50' 
 
 - `json-root`: path of the generated jsons.
 - `label-csv`: path of label csv files for class name transform.
-- `pretrain_path`: the source model to be adapted. The models for VGGSound and KS50 could be accessed from [source models 1](https://www.dropbox.com/s/dl/f4wrbxv2unewss9/vgg_65.5.pth) and [source models 2](https://drive.google.com/file/d/1m38uCAfwL--RP6rWtOvGee4i2SfAzbjl/view?usp=sharing), respectively.
+- `pretrain_path`: the source model to be adapted. The models for VGGSound and KS50 could be accessed from [source model 1](https://www.dropbox.com/s/dl/f4wrbxv2unewss9/vgg_65.5.pth) and [source model 2](https://drive.google.com/file/d/1m38uCAfwL--RP6rWtOvGee4i2SfAzbjl/view?usp=sharing), respectively.
 - `tta-method`: the TTA methods to be used. Currently, we only support `READ` and hope to release more codes for another methods soon.
 - `corruption-modality`: the modality to be corrupted.
 - `severity-start` & `severity-end`: the severity level of corruption you hope to be adopted.   
